@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+         
+  <!- CSS AND BOOTSTRAP-->
+         <link rel="Stylesheet" href="bootstrap.css">
+           <title>Student Registration</title>
+        
+        <style>
+             *{
+                margin: 0px;
+                top:0px;
+                text-decoration: none;
+
+                
+                
+            } 
+            body
+            {
+                background-image: url("registration.png");
+                background-repeat: no-repeat;
+                background-position: ;
+                background-size: cover;
+                opacity: 1.0;
+
+            }
+            .jambotron{
+                margin-top: 70px;
+                 background-color:white; 
+                margin-left: 600px;
+                margin-right: 50px;                
+                 box-shadow: 20px 20px 20px #888888; 
+                 border-radius: 30px;   
+                
+            }
+            h5,h1,h2,h3{
+                color: black;
+            }
+             .button {
+                        
+                       
+                        padding: 10px 20px;
+                        text-align: center;
+                        text-decoration: none;
+                        display: inline-block;
+                        font-size: 16px;
+                        margin: 4px 2px;
+                        transition-duration: 0.4s;
+                        cursor: pointer;
+                       
+            }
+            .button1 {
+                    background-color: white;
+                     border: 2px solid black;
+                    border: 2px solid ;
+            }
+            .button1:hover {
+                   background-color: #4CAF50;
+                   color: white;
+            }
+            .button2 {
+                    background-color: white;
+                    color: black;
+                    border: 2px solid black;
+            }
+            .button2:hover {
+                background-color: #008CBA;
+                color: white;
+             }
+             .button3 {
+                    background-color: white;
+                    color: black;
+                    border: 2px solid black;
+            }
+            .button3:hover {
+                background-color: red;
+                color: white;
+             }             
+        </style>
+    </head>
+    <body>
+        <div class="jambotron"><br><br>                 
+                 <div class="row">
+                 <div class="col-sm-2"></div>
+                 <div class="col-sm-9">
+                     <h1>Student Registration Form</h1>
+                 </div>
+                 </div><br>
+                 <h2><marquee>Personal Details</marquee></h2>
+            	 <div class="row">
+                             <div class="col-sm-2"></div>
+            	               <div class="col-sm-3">
+            	               <h5>First Name</h5></div>
+                            <div class="col-sm-3">
+                        <h5>MiddleName</h5>
+                 </div>	
+               <div class="col-sm-3">
+                     <h5>Last Name  </h5>
+                 </div>
+                 </div>
+                 <div class="row">
+                             <div class="col-sm-2"></div>
+                               <div class="col-sm-3">
+                                <input type="text" class="form-control"> </div>
+                            <div class="col-sm-3">
+                       <input type="text" class="form-control">
+                 </div> 
+               <div class="col-sm-3">
+                     <input type="text" class="form-control">
+                 </div>
+                 </div><br>
+                  <div class="row">
+                 <div class="col-sm-2"></div>
+                 <div class="col-sm-4">
+                     <h5>Address:</h5>
+                 </div>
+                 <div class="col-sm-4">
+                     <input type="text" class="form-control">
+                 </div>
+                 </div><br>
+                 
+                   <div class="row">
+                 <div class="col-sm-2"></div>
+                 <div class="col-sm-4">
+                     <h5>Contact Number:</h5>
+                 </div>
+                 <div class="col-sm-4">
+                     <input type="number" class="form-control"> 
+                 </div>
+                 </div><br>
+                 
+                   <div class="row">
+                 <div class="col-sm-2"></div>
+                 <div class="col-sm-4">
+                     <h5>Email Id:</h5>
+                 </div>
+                  <div class="col-sm-4">
+                     <input type="email" class="form-control"> 
+                 </div>
+                 </div><br>
+                 
+                   <div class="row">
+                 <div class="col-sm-2"></div>
+                 <div class="col-sm-4">
+                     <h5>DOB:</h5>
+                 </div>
+                 <div class="col-sm-4">
+                     <input type="date" class="form-control">
+                 </div>
+                 </div><br>
+                 <div class="row">
+                 <div class="col-sm-2"></div>
+                 <div class="col-sm-4">
+                     <h5>Gender:</h5>
+                 </div>
+                 <div class="col-sm-4">
+                   <h5> <input type="radio" name="gender" >Male                    
+                    <input type="radio" name="gender">Female<br><br></h5>
+                 </div>
+                 </div>                                 
+                   <div class="row">
+                 <div class="col-sm-2"></div>
+                 <div class="col-sm-4">
+                     <h5>Age:</h5>
+                 </div>
+                 <div class="col-sm-4">
+                     <input type="number" class="form-control">
+                 </div>
+                 </div>
+                 <br>
+                 <div class="row">
+                 <div class="col-sm-2"></div>
+                 <div class="col-sm-4">
+                     <h5>Adhar Card Number:</h5>
+                 </div>
+                 <div class="col-sm-4">
+                     <input type="number" class="form-control">
+                 </div>
+                 </div><br>
+                 <div class="row">
+                 <div class="col-sm-2"></div>
+                 <div class="col-sm-4">
+                     <h5>Pan Card Number:</h5>
+                 </div>
+                 <div class="col-sm-4">
+                     <input type="number" class="form-control">
+                 </div>
+                 </div><br>
+                  <div class="row">
+                 <div class="col-sm-2"></div>
+                 <div class="col-sm-4">
+                     <h5>Zip Code:</h5>
+                 </div>
+                 <div class="col-sm-4">
+                     <input type="number" class="form-control">
+                 </div>
+                 </div><br>
+                 <div class="row">
+                 <div class="col-sm-2"></div>
+                 <div class="col-sm-4">
+                     <h5>Category Type:</h5>
+                 </div>
+                 <div class="col-sm-4">
+                      <select class="form-control">
+                         <option>Select Category Type</option>
+                         <option>Open</option>
+                         <option>SC</option>
+                         <option>ST</option>
+                         <option>DA</option>
+                         <option>NT</option>
+                         <option>OBC</option>
+                         <option>SBC</option>
+                         <option>TFWS</option>
+                         <option>EWS</option>
+                     </select>
+                 </div>
+                 </div><br><br>
+                  <!--Graduation Details -->
+                 <h2><marquee>Education Details</marquee></h2>
+                 <div class="row">
+                 <div class="col-sm-1"></div>
+                 <div class=col-sm-6>
+                 <h3>Graduation Details</h3>
+                 </div></div><br>
+                 <div class="row">
+                 <div class="col-sm-2"></div>
+                 <div class="col-sm-4">
+                     <h5>Name of the Course:</h5>
+                 </div>
+                 <div class="col-sm-4">
+                     <input type="text" class="form-control">
+                 </div>
+                 </div><br>
+                 <div class="row">
+                 <div class="col-sm-2"></div>
+                 <div class="col-sm-4">
+                     <h5>Duration of the Course:</h5>
+                 </div>
+                 <div class="col-sm-4">
+                     <input type="number" class="form-control">
+                 </div>
+                 </div><br>
+                 <div class="row">
+                 <div class="col-sm-2"></div>
+                 <div class="col-sm-4">
+                     <h5>Name of University:</h5>
+                 </div>
+                 <div class="col-sm-4">
+                     <input type="text" class="form-control">
+                 </div>
+                 </div><br>
+                 <div class="row">
+                 <div class="col-sm-2"></div>
+                 <div class="col-sm-4">
+                     <h5>Duration of the Course:</h5>
+                 </div>
+                 <div class="col-sm-4">
+                     <input type="number" class="form-control">
+                 </div>
+                 </div><br>
+                 <div class="row">
+                 <div class="col-sm-2"></div>
+                 <div class="col-sm-4">
+                     <h5>Year of Passing:</h5>
+                 </div>
+                 <div class="col-sm-4">
+                     <input type="date" class="form-control">
+                 </div>
+                 </div><br>
+                 <div class="row">
+                 <div class="col-sm-2"></div>
+                 <div class="col-sm-4">
+                     <h5>Percentage:</h5>
+                 </div>
+                 <div class="col-sm-4">
+                     <input type="number" class="form-control">
+                 </div>
+                 </div><br>
+                 <!--XII Std Details -->
+                 <div class="row">
+                 <div class="col-sm-1"></div>
+                 <div class=col-sm-6>
+                 <h3>XII Std Details</h3>
+                 </div></div><br>
+                 <div class="row">
+                 <div class="col-sm-2"></div>
+                 <div class="col-sm-4">
+                     <h5>Stream:</h5>
+                 </div>
+                 <div class="col-sm-4">
+                    <h5> <input type="checkbox" name="vehicle1">Science
+                     <input type="checkbox" name="vehicle1">Commerce</h5>
+                 </div>
+                 </div><br>
+                 <div class="row">
+                 <div class="col-sm-2"></div>
+                 <div class="col-sm-4">
+                     <h5>Medium:</h5>
+                 </div>
+                 <div class="col-sm-4">
+                    <h5> <input type="checkbox" name="vehicle1">English
+                     <input type="checkbox" name="vehicle1">Marathi</h5>
+                 </div>
+                 </div><br>
+                 <div class="row">
+                 <div class="col-sm-2"></div>
+                 <div class="col-sm-4">
+                     <h5>College/School Name:</h5>
+                 </div>
+                 <div class="col-sm-4">
+                     <input type="number" class="form-control">
+                 </div>
+                 </div><br>
+                 <div class="row">
+                 <div class="col-sm-2"></div>
+                 <div class="col-sm-4">
+                     <h5>Name of Board:</h5>
+                 </div>
+                 <div class="col-sm-4">
+                     <input type="text" class="form-control">
+                 </div>
+                 </div><br>
+                 <div class="row">
+                 <div class="col-sm-2"></div>
+                 <div class="col-sm-4">
+                     <h5>Exam Seat Number:</h5>
+                 </div>
+                 <div class="col-sm-4">
+                     <input type="number" class="form-control">
+                 </div>
+                 </div><br>
+                 <div class="row">
+                 <div class="col-sm-2"></div>
+                 <div class="col-sm-4">
+                     <h5>Year of Passing:</h5>
+                 </div>
+                 <div class="col-sm-4">
+                     <input type="date" class="form-control">
+                 </div>
+                 </div><br>
+                 <div class="row">
+                 <div class="col-sm-2"></div>
+                 <div class="col-sm-4">
+                     <h5>Percentage:</h5>
+                 </div>
+                 <div class="col-sm-4">
+                     <input type="number" class="form-control">
+                 </div>
+                 </div><br>
+
+                 <!--X Std Details -->
+                 <div class="row">
+                 <div class="col-sm-1"></div>
+                 <div class=col-sm-6>
+                 <h3>X Std Details</h3>
+                 </div></div><br>
+                 <div class="row">
+                 <div class="col-sm-2"></div>
+                 <div class="col-sm-4">
+                     <h5>Medium:</h5>
+                 </div>
+                 <div class="col-sm-4">
+                    <h5> <input type="checkbox" name="vehicle1">English
+                     <input type="checkbox" name="vehicle1">Marathi</h5>
+                 </div>
+                 </div><br>
+                 <div class="row">
+                 <div class="col-sm-2"></div>
+                 <div class="col-sm-4">
+                     <h5>College/School Name:</h5>
+                 </div>
+                 <div class="col-sm-4">
+                     <input type="number" class="form-control">
+                 </div>
+                 </div><br>
+                 <div class="row">
+                 <div class="col-sm-2"></div>
+                 <div class="col-sm-4">
+                     <h5>Name of Board:</h5>
+                 </div>
+                 <div class="col-sm-4">
+                     <input type="text" class="form-control">
+                 </div>
+                 </div><br>
+                 <div class="row">
+                 <div class="col-sm-2"></div>
+                 <div class="col-sm-4">
+                     <h5>Exam Seat Number:</h5>
+                 </div>
+                 <div class="col-sm-4">
+                     <input type="number" class="form-control">
+                 </div>
+                 </div><br>
+                 <div class="row">
+                 <div class="col-sm-2"></div>
+                 <div class="col-sm-4">
+                     <h5>Year of Passing:</h5>
+                 </div>
+                 <div class="col-sm-4">
+                     <input type="date" class="form-control">
+                 </div>
+                 </div><br>
+                 <div class="row">
+                 <div class="col-sm-2"></div>
+                 <div class="col-sm-4">
+                     <h5>Percentage:</h5>
+                 </div>
+                 <div class="col-sm-4">
+                     <input type="text" class="form-control" placeholder="eg.-75%">
+                 </div>
+                 </div><br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                 <div class="row">
+                     <div class="col-sm-4"></div>
+                     <div class="col-sm-2">
+                         <button class="button button1">Submit</button>
+                     </div>
+                            <div class="col-sm-1"></div>
+                           <div class="col-sm-1">
+                               <button class="button button3" >Cancel</button>
+                            </div>
+                 </div>  <br>               
+             </div>
+        <br><br>
+    </body>
+</html>
+
